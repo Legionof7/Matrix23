@@ -1,9 +1,19 @@
 from fuzzy_extractor import FuzzyExtractor
 
-extractor = FuzzyExtractor(16, 8)
+def RunTest():
+	
+	extractor = FuzzyExtractor(10, 2)
+	x = "ABCDEFGHIJ"
+	key, helper = extractor.generate(x)
 
-key, helper = extractor.generate('AABBCCDDEEFFGGHH')
+	print (key)
+ 
+	print (helper)
 
-print (key)
+	KeyRecover = raw_input("Enter your key:")
 
-print (helper)
+	KeyReturn = extractor.reproduce(KeyRecover, helper) 
+
+	print KeyReturn
+
+RunTest()
