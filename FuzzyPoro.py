@@ -1,4 +1,3 @@
-
 from triplesec import TripleSec
 from fuzzy_extractor import FuzzyExtractor
 
