@@ -2,6 +2,6 @@ This is a test of a private key recovery method. You encrypt your private key wi
 
 Currently using https://github.com/carter-yagemann/python-fuzzy-extractor and https://github.com/keybase/python-triplesec
 
-![PoroPicture](/FuzzyPoro/ThisIsNotMyPoroThisIsACopyrightedImageofAPoroPleaseNoSue.jpg)
+![PoroPicture](ThisIsNotMyPoroThisIsACopyrightedImageofAPoroPleaseNoSue.jpg)
 
 I stole the poro picture from https://www.teepublic.com/t-shirt/388514-cute-poro
