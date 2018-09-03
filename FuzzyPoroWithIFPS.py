@@ -20,6 +20,9 @@ def FuzzyPoro():
     KeyForTripleSec = TripleSec(key)
     EncryptedPrivateKey = KeyForTripleSec.encrypt(
         PrivateKey)  # Encrypts your private key
+
+FuzzyPoro()
+IPFS()
     # This is very insecure obviously. But this is just for testing so :/
     FileWrite = open("EncryptedKey.txt", "w+")
     FileWrite.write(str(EncryptedPrivateKey))
@@ -59,8 +62,6 @@ def IPFS():
     print(UploadKey)
     hash = api.cat(UploadKey['Hash'])
     print ('The content of the uploaded IPFS file is: %s' % (hash))
-    DecryptedHash = hash.decrypt(EncryptedPrivateKey).decode()
-
 
 FuzzyPoro()
 IPFS()
