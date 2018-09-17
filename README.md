@@ -1,6 +1,6 @@
 ![DemoGif](FuzzyDemo.gif)
 
-Fuzzy Poro
+Metrics Prototype
 ===============
 
 Python prototype of biometric private key recovery system (for blockchain and other decentralized protocols).
@@ -28,5 +28,3 @@ Credit
 =====
 Currently using https://github.com/carter-yagemann/python-fuzzy-extractor and https://github.com/keybase/python-triplesec
 
-![PoroPicture](ThisIsNotMyPoroThisIsACopyrightedImageofAPoroPleaseNoSue.jpg)
-I stole the poro picture from https://www.teepublic.com/t-shirt/388514-cute-poro
