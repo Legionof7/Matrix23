@@ -1,3 +1,5 @@
+![DemoGif](https://media.giphy.com/media/4QEQ5Jqylr5ZS30pSM/giphy.gif)
+
 Fuzzy Poro
 ===============
 
