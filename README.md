@@ -11,11 +11,11 @@ Usage
 =====
 1.Install dependences:
   
-    $ pip install fuzzy-extractor
+    $ pip3.7 install fuzzy-extractor
   
-    $ pip install TripleSec
+    $ pip3.7 install TripleSec
   
-    $ pip install ipfsapi
+    $ pip3.7 install ipfsapi
  
 2.Clone the repo and run FuzzyPoroWithIPFS with Python3
 
