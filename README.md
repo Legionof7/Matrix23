@@ -11,7 +11,7 @@ https://www.notion.so/Design-Spec-fa2b4e36d1b74d56bfca7a5062aa5faf
 
 Usage
 =====
-1.Install dependences:
+1.Install dependencies:
   
     $ pip3.7 install fuzzy-extractor
   
