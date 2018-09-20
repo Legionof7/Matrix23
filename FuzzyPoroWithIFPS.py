@@ -1,6 +1,6 @@
-from triplesec import TripleSec
-from fuzzy_extractor import FuzzyExtractor
-import ipfsapi
+from triplesec import TripleSec #Encryption library from Keybase
+from fuzzy_extractor import FuzzyExtractor #Fuzzy extractor
+import ipfsapi #IPFS connection
 
 
 def FuzzyPoro():
