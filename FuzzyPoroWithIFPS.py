@@ -21,8 +21,8 @@ def FuzzyPoro():
     EncryptedPrivateKey = KeyForTripleSec.encrypt(
         PrivateKey)  # Encrypts your private key
 
-
-    # This is very insecure obviously. But this is just for testing so :/
+    # Writes a local file with your encrypted private key in it. This file 
+    #gets uploaded to IPFS and you get to keep a local backup. You can delete it if you want.
     FileWrite = open("EncryptedKey.txt", "w+")
     FileWrite.write(str(EncryptedPrivateKey))
     FileWrite.close()
