@@ -1,8 +1,6 @@
 from triplesec import TripleSec #Encryption library from Keybase
 from fuzzy_extractor import FuzzyExtractor #Fuzzy extractor
 import ipfsapi #IPFS connection
-
-
 def FuzzyPoro():
 
     extractor = FuzzyExtractor(10, 3)  # (CharacterLength, ErrorAllowed)
@@ -45,7 +43,7 @@ def FuzzyPoro():
         # Decodes your EncryptedPrivateKey with your regenerated encryption key
         print(ExtractedKey.decrypt(EncryptedPrivateKey).decode())
     except:
-        print ('Wrong encryption key BAD BAD BAD')
+        print ('Wrong encryption key :(')
 
 
 def IPFS():
