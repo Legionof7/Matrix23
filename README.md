@@ -19,7 +19,7 @@ Usage
   
     $ pip3.7 install ipfsapi
  
-2.Clone the repo and run FuzzyPoroWithIPFS with Python3
+2.Clone the repo and run Prototype.py with Python3 (or PrototypeWithIPFS.py if you want IPFS functionality)
 
 3.Follow the instructions ;)
 
