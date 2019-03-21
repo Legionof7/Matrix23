@@ -8,6 +8,7 @@ Python prototype of biometric private key recovery system (for blockchain and ot
 Info Sheet
 ===============
 https://www.notion.so/Matrix23-Info-Sheet-f2777f50a6d446b2a61692b64d53a528
+
 Usage
 =====
 1.Install dependencies:
